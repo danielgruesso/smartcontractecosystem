@@ -57,8 +57,9 @@ plugins:
 ## Enable _notes Collection 
 collections:
     notes:
-      output: false
-      permalink: /notes/:title      
+      output: true
+      permalink: /notes/:title
+      
 # Disqus Comments
 disqus:
     shortname: 

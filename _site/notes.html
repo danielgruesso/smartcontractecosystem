@@ -34,7 +34,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap"
         rel="stylesheet"><meta content="website" property="og:type">
-      <meta content="http://localhost:4000/notes" property="og:url"><title>Digital Garden</title>
+      <meta content="http://localhost:4000/notes" property="og:url"><title>Smart Contract Ecosystem</title>
       <link rel="canonical" href="http://localhost:4000/notes" />
       <link rel="apple-touch-icon" href="/assets/img/profile.png">
       <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16" />
@@ -51,9 +51,6 @@
     <body><nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="../index.html">
-            <svg width="32" height="32" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M36.9477 13.7742C38.3043 11.4086 41.6957 11.4086 43.0523 13.7742L70.5226 61.6774C71.8791 64.043 70.1834 67 67.4703 67H12.5297C9.81658 67 8.12089 64.043 9.47744 61.6774L36.9477 13.7742ZM40 16.9677L13.7506 62.7419H66.2494L40 16.9677Z" fill="var(--text-main)"/>
-            </svg>
             <h4>Chainlink Labs</h4>
           </a>
           <div class="navbar-item navbar-dark-mode__mobile is-hidden-tablet" onclick="modeSwitcher()">
@@ -73,9 +70,7 @@
         </div>
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a href="https://github.com/danielgruesso/smartcontractecosystem" target="_blank" class="navbar-item">
-              GitHub Repository
-            </a>
+            <a href="https://github.com/danielgruesso/smartcontractecosystem" target="_blank" class="navbar-item"><img src="/assets/img/github.svg" alt="GitHub" style="width:42px;height:42px;"></a>
           </div>
           <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >
             <div class="navbar-item">
@@ -96,54 +91,52 @@
           <!--- CASE 1 : Homepage--><!---CASE 2 : Notes & Blog Page--><!--- CASE 3 : Static Page --><!--- CASE 4 :  Blog Listing page --><!--- CASE 5 :  Notes Listing page -->
           <div class="column is-half">
             <div class="block">
-              <h1>Welcome to the Garden!</h1>
-              This page is the core feature of this theme, a feed of notes arranged based on the latest date. </br>
-            Check <a href="../posts/features" style="color:var(--link);">Features</a> to know how to hide notes from this feed or make this the homepage.
-          </div>
-          <!-- search bar -->
-          <div class="block">
-            <input class="input is-medium" type="text" placeholder="Search notes.." id="search-input" autocomplete="off">
-            <div id="search-results" class="search-results"></div>
-          </div>
-          <script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script>
-          <script src="/assets/js/Search.js"></script><!-- feed with filter-->
-          <div class="block note-cards">
-            <div class="box-feed" data-url="http://localhost:4000/notes/Welcome-to-the-garden">
-              <a href="/notes/Welcome-to-the-garden" style="text-decoration: none;">
-                <h4>Welcome to the garden</h4>
-                <div class="content">
-                  <p style="margin: 0px;">
-                    This is a sample atomic note. The file location is _notes/Public, and it appears on the note feed. _notes is the Obsidian Vault directory. Check   how to  to know more.
-                    While all files inside this folder get rendered and can be linked, only those notes wit...
-                  </p>
-                </div>
-              </a>
+              <h1>Smart Contract Ecosystem</h1>
             </div>
-          </div>
-          <div class="block note-cards">
-            <div class="box-feed" data-url="http://localhost:4000/notes/Markdown-Rendered">
-              <a href="/notes/Markdown-Rendered" style="text-decoration: none;">
-                <h4>Markdown Rendered</h4>
-                <div class="content">
-                  <p style="margin: 0px;">
-                    Headings
-                    H1    
-                    H2        
-                    H3            
-                    H4                
-                    H5                    
-                    H6
-                    ...
-                  </p>
-                </div>
-              </a>
+            <!-- search bar -->
+            <div class="block">
+              <input class="input is-medium" type="text" placeholder="Search notes.." id="search-input" autocomplete="off">
+              <div id="search-results" class="search-results"></div>
             </div>
-          </div>
-          <div id="copyright">
-            <p id="copyright-notice">Your Name. 2021, powered by <a href="https://github.com/danielgruesso/smartcontractecosystem">Smart Contract Ecosystem</a></p>
-          </div>
-          <script src="/assets/js/modeswitcher.js"></script></div>
-      </div>
-    </section>
-  </body>
-</html>
+            <script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script>
+            <script src="/assets/js/Search.js"></script><!-- feed with filter-->
+            <div class="block note-cards">
+              <div class="box-feed" data-url="http://localhost:4000/notes/Welcome-to-the-garden">
+                <a href="/notes/Welcome-to-the-garden" style="text-decoration: none;">
+                  <h4>Welcome to the garden</h4>
+                  <div class="content">
+                    <p style="margin: 0px;">
+                      This is a sample atomic note. The file location is _notes/Public, and it appears on the note feed. _notes is the Obsidian Vault directory. Check   how to  to know more.
+                      While all files inside this folder get rendered and can be linked, only those notes wit...
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="block note-cards">
+              <div class="box-feed" data-url="http://localhost:4000/notes/Markdown-Rendered">
+                <a href="/notes/Markdown-Rendered" style="text-decoration: none;">
+                  <h4>Markdown Rendered</h4>
+                  <div class="content">
+                    <p style="margin: 0px;">
+                      Headings
+                      H1    
+                      H2        
+                      H3            
+                      H4                
+                      H5                    
+                      H6
+                      ...
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div id="copyright">
+              <p id="copyright-notice">Chainlink Labs. 2021, powered by <a href="https://github.com/danielgruesso/smartcontractecosystem">Smart Contract Ecosystem</a></p>
+            </div>
+            <script src="/assets/js/modeswitcher.js"></script></div>
+        </div>
+      </section>
+    </body>
+  </html>
