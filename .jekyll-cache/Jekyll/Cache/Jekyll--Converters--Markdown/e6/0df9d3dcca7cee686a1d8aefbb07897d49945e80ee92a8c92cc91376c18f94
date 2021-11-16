@@ -1,0 +1,6 @@
+I"ï<p>Tada! You found the hidden note! This note is just like [[Markdown Rendered]], but not part of the feed since we hide it using <code class="highlighter-rouge">notetype: unfeed</code>. Please remember that the intention here is only to declutter the feed and not provide any 'protection' to the content. Notes with unfeed note type will be synced to Github, accessed via URL, and hyperlinked.</p>
+
+<h3 id="how-to-handle-private-notes">How to handle Private notes?</h3>
+
+<p>I would recommend using sub-folders inside <code class="highlighter-rouge">_notes</code> (Eg: Public and Private) and add Private to .gitignore so that Private notes won't get synced to Github. PS: Can you see the backlink to Welcome to the garden? That's backlinking! :)</p>
+:ET

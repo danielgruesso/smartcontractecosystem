@@ -1,0 +1,6 @@
+I"”<p>This is a sample atomic note. The file location is <code class="highlighter-rouge">_notes/Public</code>, and it appears on the note feed. <code class="highlighter-rouge">_notes</code> is the Obsidian Vault directory. <em>Check  <a href="../posts/how-to"> how to </a> to know more.</em></p>
+
+<p>While all files inside this folder get rendered and can be linked, only those notes with <code class="highlighter-rouge">notetype: feed</code> will be listed in the feed. For example, click on this [[Hidden Note]]!</p>
+
+<p>Also, backlinks (pages with a link to this page) are listed down. Check that one to see how markdown styles get rendered in this theme.</p>
+:ET
