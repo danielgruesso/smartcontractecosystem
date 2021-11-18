@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-      <loc>http://localhost:4000/notes/Hidden-Note</loc>
+      <loc>https://smartcontractecosystem.com/notes/Hidden-Note</loc>
       <lastmod>2021-01-01T00:00:00-05:00</lastmod>
     </url>
     <url>
-      <loc>http://localhost:4000/notes/Markdown-Rendered</loc>
+      <loc>https://smartcontractecosystem.com/notes/Markdown-Rendered</loc>
       <lastmod>2021-02-01T00:00:00-05:00</lastmod>
     </url>
     <url>
-      <loc>http://localhost:4000/notes/Welcome-to-the-garden</loc>
+      <loc>https://smartcontractecosystem.com/notes/Welcome-to-the-garden</loc>
       <lastmod>2021-04-15T00:00:00-04:00</lastmod>
     </url>
     <url>
-      <loc>http://localhost:4000/</loc>
+      <loc>https://smartcontractecosystem.com/</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/notes</loc>
+      <loc>https://smartcontractecosystem.com/notes</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/posts</loc>
+      <loc>https://smartcontractecosystem.com/posts</loc>
     </url>
   </urlset>
