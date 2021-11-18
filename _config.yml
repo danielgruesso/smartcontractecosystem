@@ -1,5 +1,6 @@
 baseurl: "/" 
 url: "https://smartcontractecosystem.com/" 
+title_image: "https://smartcontractecosystem.com/assets/img/map_card.png"
 
 heading: Smart Contract Ecosystem
 copyright:  
@@ -53,6 +54,7 @@ plugins:
   - jekyll-feed 
   - jekyll-sitemap 
   - jekyll-tidy
+  - jekyll-seo-tag
 
 ## Enable _notes Collection 
 collections:
